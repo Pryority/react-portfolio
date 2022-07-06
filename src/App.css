@@ -13,6 +13,17 @@
   }
 }
 
+path {
+  fill: grey;
+  stroke: none;
+  pointer-events: all;
+}
+path:hover {
+  fill: black;
+  stroke: none;
+  pointer-events: all;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
