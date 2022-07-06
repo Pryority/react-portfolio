@@ -1,13 +1,9 @@
 import React from 'react';
 
-const Contact = () => {
+export default function Contact() {
     return (
-        <div className='flex h-screen'>
-            <h1 className='bold capitalize'>
-                THE Contact PAGE
-            </h1>
+        <div className='flex items-center justify-center h-screen'>
+            <h2>Contact</h2>
         </div>
     );
-}
-
-export default Contact;
+};

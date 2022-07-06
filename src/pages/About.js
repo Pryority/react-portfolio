@@ -1,13 +1,9 @@
 import React from 'react';
 
-const About = () => {
+export default function About() {
     return (
-        <div>
-            <h1 className='bold capitalize'>
-                THE About PAGE
-            </h1>
+        <div className='flex items-center justify-center h-screen'>
+            <h2>About</h2>
         </div>
     );
-}
-
-export default About;
+};

@@ -1,14 +1,9 @@
 import React from 'react';
 
-const Portfolio = () => {
+export default function Portfolio() {
     return (
-        <div>
-            <h1 className='bold capitalize'>
-                THE Portfolio PAGE
-            </h1>
-            <div className='bg-blue-500 flex h-screen'></div>
+        <div className='flex items-center justify-center h-screen'>
+            <h2>Portfolio</h2>
         </div>
     );
-}
-
-export default Portfolio;
+};

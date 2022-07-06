@@ -1,25 +1,25 @@
-import Navbar from './navigation/Navbar.js';
+import Nav from './navigation/Navbar.js';
 import Footer from './navigation/Footer.js';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
 function App() {
-  return (
-    <div>
-      <Router>
-        <Navbar />
+  return (<>
+    <Router>
+      <div>
+        <Nav />
         <Routes>
-          <Route path='/' exact component={Home} />
-          <Route path='/About' component={About} />
-          <Route path='/Portfolio' component={Portfolio} />
-          <Route path='/Contact' component={Contact} />
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
-      </Router>
-      <Footer />
-    </div>
+      </div>
+    </Router>
+    <Footer /></>
   );
 }
 
