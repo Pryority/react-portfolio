@@ -5,9 +5,9 @@ export default function Home() {
         <div className='flex space-x-4 space-y-8 items-center justify-center h-screen'>
             <div className='flex flex-col mr-8'>
                 <span className='h-40'></span>
-                <div className='flex flex-col space-y-3 items-end'>
-                    <h1 className='text-4xl'>Hi, I'm Matthew Pryor</h1>
-                    <button className='w-2/3 bg-green-600 p-2 px-3 rounded-full font-medium '>
+                <div className='flex flex-col space-y-8 items-end'>
+                    <h1 className='text-4xl'>Hi, I'm <b>Matthew Pryor</b></h1>
+                    <button className='w-1/2 bg-blue-600 p-2 px-3 rounded-full font-medium '>
                         <p className='text-white text-xl'>About Me</p>
                     </button>
                 </div>
