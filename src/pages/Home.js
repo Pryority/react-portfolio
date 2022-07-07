@@ -7,9 +7,9 @@ export default function Home() {
                 <span className='h-40'></span>
                 <div className='flex flex-col space-y-8 items-end'>
                     <h1 className='text-4xl'>Hi, I'm <b>Matthew Pryor</b></h1>
-                    <button className='w-1/2 bg-blue-600 p-2 px-3 rounded-full font-medium '>
-                        <p className='text-white text-xl'>About Me</p>
-                    </button>
+                    <a href='/about' className='w-1/2 bg-sky-800 p-2 px-3 rounded-full font-medium '>
+                        <p className='text-white text-xl text-center'>About Me</p>
+                    </a>
                 </div>
             </div>
             <div className='flex flex-col'>
