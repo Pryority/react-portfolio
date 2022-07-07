@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export default class Nav extends Component {
     render() {
         return (
-            <nav id='navbar' className='flex items-center bg-green-500 p-4' >
+            <nav id='navbar' className='flex items-center bg-blue-200 p-4' >
                 <div className='flex w-full justify-start'>
                     <h1 className="text-3xl font-bold">
                         Matthew Pryor
