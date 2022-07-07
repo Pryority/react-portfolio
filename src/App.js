@@ -19,6 +19,11 @@ function App() {
         </Routes>
       </div>
     </Router>
+    <div className='p-2'>
+      <video width="100%" height="100%" className='rounded-t-lg' controls autoplay='true' muted='true'>
+        <source src="/italy_withEndingMosh_final.mp4" type="video/mp4" />
+      </video>
+    </div>
     <Footer /></>
   );
 }

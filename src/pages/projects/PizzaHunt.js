@@ -1,13 +1,13 @@
 import React from 'react'
 
-export default function Athleague() {
+export default function PizzaHunt() {
     return (
         <div className='flex flex-col w-full mx-2 my-auto justify-center items-center bg-white border border-slate-100 p-2 rounded-md'>
             <div className='flex space-x-8 py-2 h-full justify-around'>
                 <div className='flex flex-col justify-center items-start'>
                     <div className='flex flex-col w-full'>
                         <div className='flex w-full justify-center'>
-                            <h1 className='font-medium text-4xl mb-4'>Athleague</h1>
+                            <h1 className='font-medium text-4xl mb-4'>PizzaHunt</h1>
                         </div>
                         <div className='flex w-full justify-center'>
                             <img src='https://user-images.githubusercontent.com/47282257/172509801-d6562062-d9c1-46cb-b784-401d94f0f5a7.png' className='object-fit h-64 w-full' alt='Matthew on a beach.' />
@@ -30,7 +30,7 @@ export default function Athleague() {
                         </div>
                         <div className='flex flex-col'>
                             <p className='text-sm font-light'>Status:</p>
-                            <p className='font-medium'>Incomplete</p>
+                            <p className='font-medium'>Complete</p>
                         </div>
                     </div>
                 </div>
